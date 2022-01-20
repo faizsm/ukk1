@@ -22,7 +22,7 @@
         $username =$_POST['fusername'];
         $password =$_POST['fpassword'];
         $qry = mysqli_query($koneksi,"SELECT * FROM user WHERE username = '$username' AND password = md5('$password')");
-        $cek = mysql_num_rows($qry);
+        $cek = mysqli_num_rows($qry);
         if ($cek==1){
             $_SESSION['userweb']=$username;
             header ("location:admin.php");
