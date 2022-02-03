@@ -26,4 +26,10 @@ if(mysqli_num_rows($query)>0){
     }
 }
 
+function hapus_siswa($id){
+    global $koneksi;
+    mysqli_query($koneksi,"DELETE FROM petugas WHERE id_petugas = $id");
+    return mysqli_affected_rows($koneksi);
+}
+
 ?>

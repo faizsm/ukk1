@@ -10,12 +10,12 @@
             <td>Username</td>
             <td>:</td>
             <td><input type="text" name="username" autofocus required placeholder="Username" autocomplete ="off"></td>
-        </tr>
+        </tr><br>
         <tr>
             <td>Password</td>
             <td>:</td>
             <td><input type="password" name="password" autofocus required placeholder="Password"></td>
-    </tr>
+    </tr><br>
         <tr>
             <td><input type="submit" value="Login"  ></td>
         </tr>

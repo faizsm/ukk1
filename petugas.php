@@ -24,7 +24,7 @@ include "aa.php";
         <td><?= $data['nama_petugas']?></td>
         <td><?= $data['level']?></td>
         <td align="center"><a href="petugas-edit.php?id_petugas=<?=$data['id_petugas'];?>">Edit</a>
-        | <a href="petugas-edit.php?id_petugas=<?=$data['id_petugas'];?>">Hapus</a></td>
+        | <a href="petugas-hapus.php?id_petugas=<?=$data['id_petugas'];?>">Hapus</a></td>
     </tr>
     <?php
     }?>
